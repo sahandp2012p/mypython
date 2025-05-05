@@ -26,13 +26,12 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-14 items-center">
+      <div className="container flex h-14 items-center px-[16px]">
         <div className="mr-4 flex">
           <Link href="/" className="mr-6 flex items-center space-x-2">
             <span className="font-bold text-xl">My Python</span>
           </Link>
         </div>
-
         {/* Desktop Navigation */}
         <div className="hidden md:flex">
           <NavigationMenu>
@@ -51,7 +50,6 @@ export default function Navbar() {
             </NavigationMenuList>
           </NavigationMenu>
         </div>
-
         {/* Mobile Navigation */}
         <div className="flex md:hidden ml-auto">
           <Sheet open={isOpen} onOpenChange={setIsOpen}>

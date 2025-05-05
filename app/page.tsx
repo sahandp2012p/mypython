@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main>
-      home
+      <h2>My Python: Practice Problems</h2>
     </main>
   );
 }
