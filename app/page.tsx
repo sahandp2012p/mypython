@@ -22,8 +22,8 @@ export default function Home() {
         the <Link href="/problems">Problems</Link> page.
       </p>
       <br />
-      <Button onClick={() => router.push("/problems")}>
-        Checkout Practice Problems <ArrowRight />
+      <Button onClick={() => router.push("/freecode")}>
+        Checkout Free Code! <ArrowRight />
       </Button>
     </main>
   );
