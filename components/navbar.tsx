@@ -15,9 +15,7 @@ import { ModeToggle } from "./modeToggle";
 
 const routes = [
   { title: "Home", href: "/" },
-  { title: "About", href: "/about" },
-  { title: "Projects", href: "/projects" },
-  { title: "Documentation", href: "/docs" },
+  { title: "Practice Problems", href: "/problems" },
   { title: "Contact", href: "/contact" },
 ];
 
@@ -28,9 +26,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 items-center px-[16px]">
         <div className="mr-4 flex">
-          <Link href="/" className="mr-6 flex items-center space-x-2">
-            <span className="font-bold text-xl">My Python</span>
-          </Link>
+          <span className="font-bold text-xl">My Python</span>
         </div>
         {/* Desktop Navigation */}
         <div className="hidden md:flex">
