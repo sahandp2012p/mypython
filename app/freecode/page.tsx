@@ -2,7 +2,7 @@
 
 import Editor from "@/components/editor";
 
-export default () => {
+export default function Page() {
   return (
     <main>
       <p className="my-1">
@@ -12,4 +12,4 @@ export default () => {
       <Editor />
     </main>
   );
-};
+}
