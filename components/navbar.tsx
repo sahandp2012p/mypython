@@ -15,7 +15,7 @@ import { ModeToggle } from "./modeToggle";
 const routes = [
   { title: "Home", href: "/" },
   { title: "Practice Problems", href: "/problems" },
-  { title: "Free Code", href: "/freecode" },
+  { title: "Python Sandbox", href: "/sandbox" },
 ];
 
 export default function Navbar() {
